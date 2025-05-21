@@ -5,9 +5,7 @@ const Footer = () => {
     <div className="flex items-center justify-center gap-4 py-3 mt-20">
       <img src={assets.logo} alt="" width={150} />
 
-      <p className="text-gray-500 text-xl">|</p>
-
-      <p className="flex-1 text-md text-gray-500 max-sm:hidden">
+      <p className="flex-1 border-l pl-4 border-gray-400 text-gray-500 max-sm:hidden">
         Copyright @Imgly.dev | All right reserved.
       </p>
 
